@@ -2,7 +2,7 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.io.IOException;
 
-public abstract class User {
+public abstract class User implements UserLike {
 	protected String username;
 
 	public User(String username) {
